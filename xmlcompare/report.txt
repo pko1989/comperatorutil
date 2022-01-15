@@ -1,0 +1,15 @@
+***********************************REPORT**********************************
+
+######################################
+Comparison precision: 0.01
+Ignored Nodes:
+[ignore_me, third, second_ignore_me]
+######################################
+
+---------------------------------
+a1.xml has following differences: 
+Difference at: /content[1]/check[1]/elem_one[1]/text()[1]. Expected: hi thereee. But was: hi there  
+Difference at: /content[1]/check[1]/elem_two[1]/text()[1]. Expected: A. But was: 011.02  
+---------------------------------
+a2.xml: OK!
+Skipped  a3.xml. (Not present in outputs)

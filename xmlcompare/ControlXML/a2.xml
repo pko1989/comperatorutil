@@ -1,0 +1,12 @@
+<content>
+    <ignore_me>
+        <ignore_one>12</ignore_one>
+        <ignore_two>345</ignore_two>
+        <ignore_three>123</ignore_three>
+    </ignore_me>
+    <check>
+        <elem_one>hi there</elem_one>
+        <elem_two>011</elem_two>
+        <elem_three a = "60"></elem_three>
+    </check>
+</content>
