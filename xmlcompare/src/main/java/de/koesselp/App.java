@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
@@ -35,7 +34,7 @@ public class App {
         System.out.println("************************************************************");
         System.out.println("Start comparing:");
         System.out.println("");
-
+        System.out.println((new File("ControlXML")).getAbsolutePath());
         List<File> inputXMLFiles = Arrays
                 .asList((new File("ControlXML")).listFiles(file -> file.getName().endsWith(".xml")));
         List<File> outputXMLFiles = Arrays
